@@ -1,0 +1,79 @@
+
+
+.tabs {
+    text-decoration: none;
+    width: 250px;
+    border: 0px solid;
+    border-radius: 30px;
+    text-align: left;
+    margin-bottom: 24px;
+    background: #f4f4f4;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #999999;
+    font-weight: 500;
+}
+
+th, td {
+    text-align: center;
+}
+
+.tabs > a {
+    text-decoration: none;
+    
+}
+.tabs > a:hover {
+    color: black;
+}
+
+.projectBgColor {
+    background: #ededed;
+}
+
+.bgColor {
+    background-color: #ededed;
+}
+
+.activeCSS{
+    background-color: #ace218;
+    font-weight: 700;
+    color:white;
+}
+.activeCSS:hover{
+    background-color: #ace218;
+    color:white;
+}
+
+.nonactiveCSS{
+    color: #999999;
+}
+.nonactiveCSS:hover{
+    color: #999999;
+}
+
+.createButton {
+    min-height: 50px;
+    border-radius: 30px;
+    padding: 0 40px; 
+    cursor: pointer;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #d1cece;
+    background-color: #e6f9b4;
+    border-color: #e6f9b4;
+    font-weight: 400;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ace218;
+    border-color: #ace218;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ace218;
+    border-color: #ace218;
+}
